@@ -84,8 +84,9 @@ hdline_new_text_sum <- lapply(hdline_urls[1], function(page) {
 ```{r}
 asdf <- hdline_new_text_sum[[1]]
 
-asdf <- asdf[1]
-asdf <- "가나다라마바"
+# asdf <- asdf[1]
+# asdf <- "가나다라마바"
+
 nouns <- KoNLP::extractNoun(asdf)
 
 
